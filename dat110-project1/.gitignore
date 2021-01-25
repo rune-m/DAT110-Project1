@@ -3,13 +3,16 @@
 # Compiled class file
 *.class
 
-# Project files
+# Project files IntelliJ
 /.idea
 .idea
 *.iml
+
+# Project files Eclipse
 .classpath
 .project~
 .project
+.settings/
 
 # Log file
 *.log
