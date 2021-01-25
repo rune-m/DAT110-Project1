@@ -11,10 +11,10 @@ out/
 
 # Project files Eclipse
 #.classpath
-#.project~
+.project~
 #.project
 #.settings/
-#bin/
+bin/
 
 # Log file
 *.log
