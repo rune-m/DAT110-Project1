@@ -7,12 +7,14 @@
 /.idea
 .idea
 *.iml
+out/
 
 # Project files Eclipse
 .classpath
 .project~
 .project
 .settings/
+bin/
 
 # Log file
 *.log
