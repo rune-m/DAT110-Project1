@@ -50,11 +50,12 @@ public class Controller  {
 			int temp = sensor.read();
 			display.write(Integer.toString(temp));
 
-//			try {
-//				Thread.sleep(1000);
-//			} catch (InterruptedException e) {
-//				e.printStackTrace();
-//			}
+			// Reading and write at intervals
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
 
 		}
 		
