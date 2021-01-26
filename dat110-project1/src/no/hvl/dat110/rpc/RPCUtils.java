@@ -54,7 +54,9 @@ public class RPCUtils {
 
 		// TODO: return rcpid?
 
-		int rpcid = data[0];
+		byte rpcid = data[0];
+
+		data = new byte[] {rpcid};
 
 	}
 
