@@ -49,6 +49,13 @@ public class Controller  {
 		for (int i = 0; i < N; i++) {
 			int temp = sensor.read();
 			display.write(Integer.toString(temp));
+
+//			try {
+//				Thread.sleep(1000);
+//			} catch (InterruptedException e) {
+//				e.printStackTrace();
+//			}
+
 		}
 		
 		stopdisplay.stop();
