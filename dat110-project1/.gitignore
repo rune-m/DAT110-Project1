@@ -3,6 +3,8 @@
 # Compiled class file
 *.class
 
+/tests
+
 # Project files IntelliJ
 /.idea
 .idea
